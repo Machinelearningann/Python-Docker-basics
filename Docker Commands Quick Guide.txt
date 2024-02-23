@@ -1,0 +1,8 @@
+docker build -t test:v1 . 
+-t test:v1: The -t option is used to tag the image with a name and an optional tag. In this case, the image will be tagged as test with the version v1. The format is name:tag.
+  Docker run
+docker run -it test:v1
+Check for All Containers:
+docker ps -a
+Check Container Logs:
+docker logs container_id_or_name
